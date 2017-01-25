@@ -5,8 +5,6 @@
  */
 
 
-
-
 package helloWorld;
 
 public class HelloWorld 
@@ -17,6 +15,7 @@ public class HelloWorld
 		
 		String message = "Hello World";
 		System.out.println(message);
+		System.out.println("This is pretty lit");
 
 	} // end main
 
