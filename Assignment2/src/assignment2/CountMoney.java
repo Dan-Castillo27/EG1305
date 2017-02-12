@@ -25,9 +25,16 @@ public class CountMoney
 			nickels = 0;
 			pennies = 0;
 		}
-		dimes = (cents/10) % 10;
-		nickels = (cents % 5);
-		pennies = (cents%100) / 100;
+		
+		/*This section is not correct. It should be dimes = (cents % 25) / 10 
+		dimes = (cents/10) % 10; 
+		
+		nickels = (cents % 5); //Can you fix this based on the statement I wrote above
+		pennies = (cents%100) / 100;//Can you fix this based on the statement I wrote above
+		
+		*/
+		
+		
 		
 		System.out.println("The amount dollars is "+dollars+"\nThe amount of quarters is "+quarters);
 		System.out.println("The amount of dimes is "+dimes+"\nThe amount of nickels is "+nickels);
